@@ -1,0 +1,21 @@
+<div class="container">
+   <div ng-controller="loginCtrl">
+     <form id="myLogin">
+      <div class="row" style="margin-top: 100px;text-align: center;">
+        <div  class="col-sm-12" align="center">
+            <h2>Log In</h2>
+            <table >
+            <tr>
+            <td>User Name:</td><td><input type="text" name="username" placeholder="Enter user name" id="username" ng-model="username"></td>
+            </tr><tr><td></td></tr><tr><td></td></tr>
+            <tr>
+           <td> Password:</td><br><td> <input type="password" name="password" placeholder="Enter Password" id="password" ng-model="password"></td>
+            </tr>
+            <tr><td><button type="button" ng-click="submit()">Log In</button></td></tr>
+        </table>
+            
+        </div>
+      </div>
+      </form>
+    </div>
+</div>
